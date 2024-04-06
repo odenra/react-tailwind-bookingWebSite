@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Offer from "./components/Offer"
 import Plan from "./components/Plan"
+import Rooms from "./components/Rooms"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Offer />
       <Plan />
+      <Rooms />
     </>
   )
 }

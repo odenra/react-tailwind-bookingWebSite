@@ -5,11 +5,11 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
-    // if(!nav) {
-    //     document.body.style.overflow = 'hidden'
-    // } else {
-    //     document.body.style.overflow = 'scroll'
-    // }
+     if(!nav) {
+         document.body.style.overflow = 'hidden'
+     } else {
+         document.body.style.overflow = 'scroll'
+     }
   };
 
   return (
