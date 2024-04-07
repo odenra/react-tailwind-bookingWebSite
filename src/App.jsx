@@ -1,4 +1,5 @@
 import Hero from "./components/Hero"
+import ImageSlider from "./components/ImageSlider"
 import Navbar from "./components/Navbar"
 import Offer from "./components/Offer"
 import Plan from "./components/Plan"
@@ -13,6 +14,7 @@ function App() {
       <Offer />
       <Plan />
       <Rooms />
+      <ImageSlider />
     </>
   )
 }
